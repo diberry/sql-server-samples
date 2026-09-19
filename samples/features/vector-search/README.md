@@ -35,6 +35,7 @@ This writes the deployment outputs (`AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_EMBED
 |----------|--------|-------------|--------|
 | TypeScript | [vector-search-query-typescript/](./vector-search-query-typescript/) | Vector search with Node.js, tedious driver, and Azure OpenAI | Implemented; live end-to-end run captured |
 | Python | [vector-search-query-python/](./vector-search-query-python/) | Vector search with pyodbc, azure-identity, and Azure OpenAI | Implemented; statically validated (lint, type-check, unit tests) — no live end-to-end run captured yet |
+| .NET | [vector-search-query-dotnet/](./vector-search-query-dotnet/) | Vector search with Microsoft.Data.SqlClient, Azure.Identity, and Azure.AI.OpenAI | Implemented; static validation only — no live end-to-end run captured yet |
 | Go | [vector-search-query-go/](./vector-search-query-go/) | Vector search with go-mssqldb, azidentity, and the OpenAI Go client configured for Azure | Implemented; statically validated (vet, build, unit tests) — no live end-to-end run captured yet; also out of scope for v1 by constitution decision ([ASV-LANG-GO-1](/.github/instructions/vector-search-constitution.instructions.md)) |
 
 ## Infrastructure only
